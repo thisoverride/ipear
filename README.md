@@ -9,14 +9,16 @@
   <li>Documentation</li>
 </ul>
 
-<h2> Stack
-  - Php 7
-  - HTML 5
-  - CSS 3
+<h2> Stack </h2>
+ 
+  <ul>
+  <li> - Php 7
+ <li> - HTML 5</li>
+ <li> - CSS 3</li>
   Framwork
-  - Bootstrap 5
+ <li>- Bootstrap 4v6</li>
+  </ul>
   
-</h2>
 <h2>Architecture du projet</h2>
 <img width="732" alt="Capture d’écran 2021-06-20 à 19 07 11" src="https://user-images.githubusercontent.com/67823632/122682613-cca00380-d1fa-11eb-9eaa-e76b8313e293.png">
 
