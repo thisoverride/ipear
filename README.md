@@ -15,7 +15,7 @@
   <li> - Php 7
  <li> - HTML 5</li>
  <li> - CSS 3</li>
-  Framwork
+  <h4>Framwork</h4>
  <li>- Bootstrap 4v6</li>
   </ul>
   
