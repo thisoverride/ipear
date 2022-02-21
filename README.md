@@ -10,7 +10,7 @@
 </ul>
 
 <h2>Architecture du projet</h2>
-<img width="732" alt="Capture d’écran 2021-06-20 à 19 07 11" src="https://user-images.githubusercontent.com/67823632/122682613-cca00380-d1fa-11eb-9eaa-e76b8313e293.png">
+<img width="732" alt="Capture d’écran 2021-06-20 à 19 07 11" src="https://user-images.githubusercontent.com/67823632/122682613-cca00380-d1fa-11eb-9eaa-e76b8313e293.png">
 
 
 
@@ -53,7 +53,9 @@
 
 </ul>
 
-
+<h2>Développeurs</h2>
+<h3 align="center">Développé et pensé par Devon & Yoan.</h3>
+<img width="1110" alt="Capture d’écran 2021-06-20 à 19 15 53" src="https://user-images.githubusercontent.com/67823632/122682825-fa397c80-d1fb-11eb-8251-1a0f3247432b.png">
 
 
 

@@ -1,0 +1,229 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,300);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    color: #ffff;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+.sidebar-btn {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="sidebar-btn"] {
+    position: fixed;
+    left: 15px;
+    top: 15px;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect style='fill:rgb(255,255,255)' width='15' height='3'/><rect style='fill:rgb(255,255,255)' y='8' width='20' height='3'/><rect style='fill:rgb(255,255,255)' y='16' width='25' height='3'/></svg>");
+    background-size: contain;
+}
+
+.sidebar-btn+label,
+.content {
+    transition: left 0.25s;
+}
+
+.sidebar-btn+label {
+    left: 245px;
+}
+
+.sidebar-btn~.content {
+    left: 230px;
+}
+
+.sidebar-btn:checked+label {
+    left: 15px;
+}
+
+.sidebar-btn:checked~.content {
+    left: 0px;
+}
+
+.sidebar {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: #c0392b;
+}
+
+.sidebar li {
+    background-color: #c0392b;
+    padding: 1em;
+    color: #fff;
+    width: 300px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 50ms;
+    -o-transition-duration: 50ms;
+    -webkit-transition-duration: 50ms;
+    transition-duration: 50ms;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+
+.sidebar li:hover {
+    background-color: #962d22;
+}
+
+.content {
+    min-height: 100%;
+    min-width: 100%;
+    background-color: #34495e;
+    position: relative;
+    top: 0;
+    bottom: 100%;
+    left: 0;
+    /* z-index: 1; */
+    padding: 4em;
+}
+
+.option_btn {
+    position: relative;
+    top: -3%;
+    border: none;
+    border-radius: 100% !important;
+    color: #ffffff;
+    height: 50px;
+    width: 50px;
+}
+
+#isNumber,
+#phone-title {
+    width: 120px;
+}
+
+#first_name,
+#first_name-title {
+    width: 150px;
+}
+
+#last_name,
+#last_name-title {
+    width: 150px;
+}
+
+#email,
+#email-title {
+    width: 250px;
+}
+
+#login,
+#title-login {
+    width: 150px;
+}
+
+#email,
+#title-email {
+    width: 250px;
+}
+
+#rounded,
+#validate {
+    text-align: center;
+    background-color: #962d22 !important;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50% !important;
+}
+
+#validate {
+    background-color: #0071e3 !important;
+}
+
+.hiddenAddress {
+    display: none;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+
+.ui-menu {
+    font-size: medium;
+    text-align: center;
+    border: 1px solid gray;
+    display: none;
+    background-color: #fbfbfd;
+    color: #000;
+    margin: auto;
+    margin-top: 12px;
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.ui-menu-item {
+    padding: 3px;
+}
+
+.ui-menu-item:hover {
+    color: #e7e7eb;
+    background-color: #0071e3;
+    border-radius: 5px;
+}
+
+.txt-decoration {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.txt-decoration:hover {
+    color: #34495e;
+}
+
+.size-card {
+
+    height: 300px;
+    cursor: pointer;
+
+}
+
+.size-card:hover {
+    color: #34495e;
+}
+
+#size-img {
+    margin: auto;
+    height: 100px;
+}
